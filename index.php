@@ -168,7 +168,7 @@
                                     width: 50px;
                                     height: 50px;
                                     cursor: pointer;
-                                    background: url(Jssor.Slider.FullPack/img/a09.png) no-repeat;
+                                    background: url(/public/Jssor.Slider.FullPack/img/a09.png) no-repeat;
                                     overflow: hidden;
                                     opacity: .4;
                                     filter: alpha(opacity=40);
