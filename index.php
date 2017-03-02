@@ -4,7 +4,7 @@
         <title>Maël Mayon - Accueil</title>
         <?php include ('head.php'); ?>
         <!-- Js Slider -->
-        <script src="../js/jsSlider/jssor.slider.mini.js"></script>
+        <script src="/public/js/jsSlider/jssor.slider.mini.js"></script>
         <script>
         jssor_slider1_starter = function (containerId) {
 
