@@ -474,7 +474,7 @@ span.glyphicon-folder-close, span.glyphicon-folder-open {
 .jumbotron {
   text-shadow: 0px 2px 2px black;
   color: white;
-  background-image: url("/images/llc_droit_de_l_informatique.jpg");
+  background-image: url("//public/images/llc_droit_de_l_informatique.jpg");
 }
 
 /* line 420, ../sass/screen.scss */

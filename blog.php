@@ -34,7 +34,7 @@
 			<br/><br/>
 			Mais au delà d'un scenario très riche, le plus intéressant dans cette série est à mon gout le coté réaliste, les lignes de codes défilantes, les techniques de hacking utilisés, le scénario… tout est fait pour qu'au visionnage l'on se croit dans la vrai vie et non pas dans un blockbuster américain.
 			Les personnages sont réalistes et possèdent chacun des caractères très atypiques auxquels il devient des plus facile de s'accrocher.<br><br>
-			<img src="images/Blog/tumblr_nr743y1W0J1uygu1vo1_1280.jpg" alt="Elliot et Mr Robot">
+			<img src="/public/images/Blog/tumblr_nr743y1W0J1uygu1vo1_1280.jpg" alt="Elliot et Mr Robot">
 			<h5>Elliot et Mr Robot</h5>
 			Alors soyons franc, cette série ne plaira pas à tous le monde, sombre, psychologique et possédant tellement de pans d'histoire que l'on s'y perd, elle s'inscrit probablement dans une lignée de série desquelles nous attendons beaucoup et c'est au visionnage de la saison 2 que nous saurons réellement à quoi nous attendre.
 			<br/><br/>
@@ -42,7 +42,7 @@
 			</p>
           </div>
           <div class="col-sm-offset-1 col-sm-4 col-xs-12">
-            <img class="img_blog" src="images/Blog/mr-robot-559ff5886f4f5.jpg" alt="Elliot">
+            <img class="img_blog" src="/public/images/Blog/mr-robot-559ff5886f4f5.jpg" alt="Elliot">
             <h5></h5>
           </div>
           <div class="col-sm-7 col-xs-12">
@@ -53,7 +53,7 @@
             <br/>En prime, l'interwiew du concepteur : <a href="http://www.redbull.com/fr/fr/bike/stories/1331745487383/dan-atherton-hardline-interview" alt="Interview Dan Atherton">ICI</a>
           </div>
           <div class="col-sm-offset-1 col-sm-4 col-xs-12">
-            <img class="img_blog" src="images/Blog/Gee_Atherton.jpg" alt="Gee Atherton">
+            <img class="img_blog" src="/public/images/Blog/Gee_Atherton.jpg" alt="Gee Atherton">
             <h5>Gee Atherton</h5>
           </div>
           <div class="col-sm-7 col-xs-12">
@@ -64,7 +64,7 @@
             Je m’était d'ailleurs un peu éloigné des série depuis maintenant plusieurs mois lassé par ce qu'on me proposait. Après avoir regardé inéluctablement <a href="http://www.imdb.com/title/tt0944947/" alt="Game of Throne">Game of Throne</a> puis tenté, d’apprécier la saison 3 de <a href="http://www.imdb.com/title/tt1856010/" alt="House of Cards">House of Card</a>, de ne pas être déçu par la fin de <a href="http://www.imdb.com/title/tt3322312/" alt="Daredevil">Daredevil</a> ou, de ne pas me lacer de regarder un épisode de <a href="http://www.imdb.com/title/tt3749900/" alt="Gotham">Gotham</a>. J'avais alors tout mis de coté pour passagèrement regarder un épisode d’ <a href="http://www.imdb.com/title/tt1305826/" alt="Adventure Time">Adventure Time</a> ou de <a href="http://www.imdb.com/title/tt2861424/" alt="Rick and Morty">Rick et Morty</a>.<br/><br/>
             Mais ca c’était avant… Avant qu’un beau soir d’été je tombe par hasard en zappant sur M6 sur la diffusion des 3 derniers épisodes de <strong>How to Get Away With Murder</strong>. Pas décidé pour autant à regarder je laisse en fond sonore et continu à vaquer à mes divers occupations. C’est la bande son, un petit regard de temps en temps et la sensation que je ratai quelque chose qui m’a finalement happé dans cette histoire au moults rebondissements. Et bien que ne connaissant pas l’histoire et travaillant le lendemain je n’ai pas pu décrocher avant 1h30, heure de la fin de diffusion (Merci M6).<br/><br/>
             C’est à la suite de cette soirée envoutante que j’ai décidé de commencer cette série et ce malgré m’être spoiler l’épilogue de la saison 1. Ainsi dès le dimanche suivant dans une sorte de frénésie je dévorais tous les épisodes de la saison 1.<br/><br/>
-            <img class="img_blog2" src="images/Blog/How2GetAway.jpg" alt="Annalise Keating">
+            <img class="img_blog2" src="/public/images/Blog/How2GetAway.jpg" alt="Annalise Keating">
             <h5 style="margin-left:20px;">Annalise Keating</h5>
             Mais cessons de parler de moi et parlons plutôt de la série. <strong>Annalise Keating</strong> est une avocat de la défense des plus impressionnante sachant allier autorité audace et talent pour extirper ses clients des griffes de la justice. Cette dernière est aussi <stong>professeur</stong> à l’université d’un cours qu’elle a intitulé How to get away with murder. Et chaque année elle prend dans son cabinet ses <strong>4 élèves</strong> les plus prometteurs afin de les mettre à profit et de leurs permettre d’apprendre à ses côtés.<br/><br/>
             Il s’avère alors que dès le premier épisode nous retrouvons à travers un flashforward ses 4 étudiants impliqués dans une histoire de <strong>meurtre</strong> dont les tenants et aboutissants nous serons révélés tout le long de la série nous tenant ainsi en haleine pour découvrir comment ils en sont arrivés là !<br/><br/>
@@ -72,7 +72,7 @@
             La saison 1 se finie en crescendo et nous prépare à une saison 2 pleine <strong>d’intrigue</strong>.. à suivre et de très prêt !</p>
           </div>
           <div class="col-sm-offset-1 col-sm-4 col-xs-12">
-            <img class="img_blog" src="images/Blog/WessGibins.png" alt="Wes Gibbins">
+            <img class="img_blog" src="/public/images/Blog/WessGibins.png" alt="Wes Gibbins">
             <h5>Wes Gibbins</h5>
           </div>
           <div class="col-sm-7 col-xs-12">
@@ -82,7 +82,7 @@
               Il y’avait bien longtemps que je n’avais pas repris la plume, ou le clavier en l’occurrence, je m’essaie donc à l’exercice aujourd’hui pour vous parler d’un de mes coups de coeur de l’année. Si vous n’aimez pas les mangas et bien laissez moi vous convaincre de tenter celui-ci !
               Monster est un <strong>thriller psychologique</strong> alliant enquête policière et complot historique. Le tout baignant dans une ambiance <strong>glauque</strong> et parfois même <strong>sordide</strong>.
               <br/><br/>
-              <img class="img_blog2" src="images/Blog/monster.jpg" height="250" width="620" alt="Dr Tenma">
+              <img class="img_blog2" src="/public/images/Blog/monster.jpg" height="250" width="620" alt="Dr Tenma">
               <h5 style="margin-left:20px;">Dr Tenma</h5>
               Mais commençons par un petit résumé ! L’histoire se déroule en Allemagne où nous suivrons durant 162 chapitres <strong>Dr Tenma</strong>, un neurochirurgien japonais pointure dans son domaine venu faire ses études et pratiquer sur le vieux continent.
               Son histoire bascule lorsque, à l’encontre des directives de ses supérieurs, il décide de sauver en urgence un petit garçon, s’étant pris une balle dans la tête tandis que le maire de Dusseldorf se fait opérer par ses confrères et finira par décéder en son absence. Notre héro est alors fortement réprimandé et devient le souffre-douleurs de ses collègues. C’est alors que ses trois supérieurs meurent, assassinés, le propulsant à la tête du service neurochirurgical mais le rendant aussi suspect numéro un du triple homicide. Manquant de preuves, l'enquête menée par l'inspecteur Lung, un protagoniste essentiel, finira par être enterrée sans vrai coupable désigné. En parallèle le jeune enfant sorti de danger et sa soeur jumelle (hospitalisée avec lui pour traumatisme) s'évaporent mystérieusement. 
@@ -95,7 +95,7 @@
             </p>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
-            <img style="border-bottom:2px solid black" class="img_blog" src="images/Blog/tumblr_lw92md2YV01qmtdomo1_500.gif" height="374" width="500" alt="Johan">
+            <img style="border-bottom:2px solid black" class="img_blog" src="/public/images/Blog/tumblr_lw92md2YV01qmtdomo1_500.gif" height="374" width="500" alt="Johan">
             <h5>Johan parlant à Tenma</h5>
           </div>
         </div>
@@ -116,7 +116,7 @@
             </p>
           </div>
           <div class="col-sm-4 col-sm-offset-1 col-xs-12">
-            <img class="img_blog" src="images/Blog/oystein-braaten-profile-2014.jpg" height="1500" width="1500" alt="Oystein Braaten">
+            <img class="img_blog" src="/public/images/Blog/oystein-braaten-profile-2014.jpg" height="1500" width="1500" alt="Oystein Braaten">
             <h5>Portrait d'Øystein Bråten</h5>
           </div>
         </div>
@@ -124,7 +124,7 @@
 
 
 <!--
-<span class="button-log btn"><img src="images/Test-Archive.png" height="auto" width="100"></span>
+<span class="button-log btn"><img src="/public/images/Test-Archive.png" height="auto" width="100"></span>
 <script>$(document).ready(function(){
 $(".button-log").click(function(){
 $(this).fadeToggle();
@@ -140,7 +140,7 @@ $(this).fadeToggle();
       <p>Des <strong>complots</strong> étriqués, des scènes d’<strong>action</strong> très prenantes et une fâcheuse tendance à perdre les personnages auxquels on s’attache. On se voit déjà en plein Game of Throne. Rajoutez maintenant une trame très sombre ou les <strong>effusions de sang</strong> sont de paires à de superbes dessins et cette fois ci vous obtenez <strong>Shingeki no Kyojin</strong> soit chez nous : <em>l'Attaque des Titans.</em><br /><br />
         En ayant entendu parler en bien par mes comparses de classe, je me suis laissé tenter à essayer et c'est ainsi que je suis tombé dedans. En effet, une fois le train embarqué, il s’est avéré qu’il était impossible d’en redescendre.<br /> Cette petite perle qui nous vient tout droit du Japon et de <a href="http://fr.wikipedia.org/wiki/Hajime_Isayama" target="_blank" alt="Hajime Isayama Wikipedia">Hajime Isayama </a> est incontestablement l'un des meilleurs manga de son époque. Récompensé à plusieurs reprises à travers le monde il a été notamment très remarqué à sa sortie au Japon.<br /><br/>
         L'histoire prend place sur Terre dans un territoire entouré de gigantesques murs servant de protection à <strong>la menace Titan</strong>. On suivera le 104e régiment, un groupe d'éclaireurs dont la mission est d'<strong>explorer</strong> l'extérieur des murs et l'on découvrira lentement et à grands efforts d'<strong>écatombes humaines</strong> les différents éléments nous permetants de mieux comprendre le monde qui les entoure et comment les humains se sont-ils retrouvés dans cette situation.<br/><br/>
-        <img class="img_blog2" src="images/Blog/140697.jpg" height="829" width="1200" alt="Une scene sanglante">
+        <img class="img_blog2" src="/public/images/Blog/140697.jpg" height="829" width="1200" alt="Une scene sanglante">
         <h5>Précisons que ceci n'est pas un Spoiler</h5>
         Je vous conseille grandement de lire d’abord Attack on Titan - <a href="http://www.mangareader.net/attack-on-titan-before-the-fall" target="_blank" alt="Lien Attack on Titan Before the Fall">
         <strong>Before the Fall</strong></a> un prequel à l’histoire ainsi que <a href="http://www.mangareader.net/shingeki-no-kyojin-birth-of-levi-kuinaki-sentaku" alt="The Birth of Levi" target="_blank"><strong> The Birth of Levi</strong></a>. Ces deux courtes nouvelles vous mettrons dans le bain avant d’attaquer le plat principal et sont de très bonnes introductions à l’histoire.<br/><br/>
@@ -149,7 +149,7 @@ $(this).fadeToggle();
     </div>
     <div class="col-sm-4 col-sm-offset-1 col-xs-12">
       <div class="push_blog"></div>
-      <img class="img_blog" src="images/Blog/BKi4Ju0CAAEnIvK.jpg" height="498" width="340" alt="Levi, l'un des acteurs majeurs">
+      <img class="img_blog" src="/public/images/Blog/BKi4Ju0CAAEnIvK.jpg" height="498" width="340" alt="Levi, l'un des acteurs majeurs">
       <h5>Levi, l'actuel meilleur combatant de la race humaine</h5>
     </div>
   </div>
@@ -172,7 +172,7 @@ $(this).fadeToggle();
       </div>
       <div class="col-sm-5 col-xs-12">
         <div class="push_blog"></div>
-        <img class="img_blog" src="images/Blog/chappie_ver2_xlg.jpg" alt="Affiche Film Chappie">
+        <img class="img_blog" src="/public/images/Blog/chappie_ver2_xlg.jpg" alt="Affiche Film Chappie">
       </div>
     </div>
   </div>

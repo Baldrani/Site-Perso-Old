@@ -11,7 +11,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script src="//cdn.jsdelivr.net/ace/1.2.0/min/ace.js"></script>
-<link rel="icon" href="images/favicon.ico">
+<link rel="icon" href="/public/images/favicon.ico">
 <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic,900' rel='stylesheet' type='text/css'>

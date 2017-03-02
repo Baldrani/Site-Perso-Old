@@ -13,7 +13,7 @@
 
 		<section>
 			<figure id="CV">
-				<img src="Images/CV.png" alt="CV" />
+				<img src="/public/images/CV.png" alt="CV" />
     			<figcaption><line>CV</line></figcaption>
 			</figure>
 		</section>		

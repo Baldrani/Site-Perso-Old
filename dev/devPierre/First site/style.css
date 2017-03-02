@@ -235,7 +235,7 @@ aside
 	display: inline-block;
 	position: relative;
 	margin: auto;
-	background: url('Images/LetMeTakeASelfie.png');
+	background: url('/public/images/LetMeTakeASelfie.png');
 	background-repeat: no-repeat;
 	width: 768px;
 	height: 431px;

@@ -73,14 +73,14 @@
             }
             //Scale slider after document ready
             ScaleSlider();
-                                            
+
             //Scale slider while window load/resize/orientationchange.
             $(window).bind("load", ScaleSlider);
             $(window).bind("resize", ScaleSlider);
             $(window).bind("orientationchange", ScaleSlider);
             //responsive code end
             };
-    
+
         </script>
         <!-- End Js Slider -->
     </head>
@@ -105,23 +105,23 @@
     {
         $(this).addClass('active');
     }
-})</code></pre>         
+})</code></pre>
                 </div><!-- End col -->
                 <div class="col-xs-12 col-sm-6">
                         <!--#region Jssor Slider Begin -->
-                        <!-- To move inline styles to css file/block, please specify a class name for each element. --> 
+                        <!-- To move inline styles to css file/block, please specify a class name for each element. -->
                         <div id="slider1_container" style="position: relative; width:600px;
                             height: 300px; border-radius:5px; overflow: hidden;">
-                     
-                            <!-- Slides Container --> 
+
+                            <!-- Slides Container -->
                             <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 300px;
                                 overflow: hidden;">
-                                <div><img u="image" src="images/slider/02.jpg" /></div>
-                                <div><img u="image" src="images/slider/03.jpg" /></div>
-                                <div><img u="image" src="images/slider/04.jpg" /></div>
-                                <div><img u="image" src="images/slider/01.jpg" /></div>
+                                <div><img u="image" src="/public/images/slider/02.jpg" /></div>
+                                <div><img u="image" src="/public/images/slider/03.jpg" /></div>
+                                <div><img u="image" src="/public/images/slider/04.jpg" /></div>
+                                <div><img u="image" src="/public/images/slider/01.jpg" /></div>
                             </div>
-                            
+
                             <!--#region Bullet Navigator Skin Begin -->
                             <!-- Help: http://www.jssor.com/development/slider-with-bullet-navigator-jquery.html -->
                             <style>
@@ -193,14 +193,14 @@
 
                             </div>
                             <!--#endregion Bullet Navigator Skin End -->
-                        </div> 
+                        </div>
                         <!--#endregion Jssor Slider End -->
                         <script>
                             jssor_slider1_starter('slider1_container');
                         </script>
                 </div><!-- End Row -->
             </jssor_slider1_starter('slider1_container');>
-        </div>  
+        </div>
 
         <script type="text/javascript">
             $('.hoverPopupWrapper').hover(function(){
@@ -233,14 +233,14 @@
             }
         </script>
                 <div class="push"></div>
-        </div>   
- 	</div>       
+        </div>
+ 	</div>
         <div class="footer">
             <?php include ('footer.php'); ?>
-        </div>          
+        </div>
 
 </body>
-    
+
 
 
 </html>

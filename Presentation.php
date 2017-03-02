@@ -23,7 +23,7 @@
                 </p>
                 </div>
                 <div class="col-sm-offset-1 col-sm-4 col-xs-12">
-                <img id="photo_presentation" src="images/IMG_0141-Recovered.png" height="720" width="1080"></img> <!-- a modifier en utilisant les photo bootstrap -->
+                <img id="photo_presentation" src="/public/images/IMG_0141-Recovered.png" height="720" width="1080"></img> <!-- a modifier en utilisant les photo bootstrap -->
                 </div>
             </div>
             <div class="row competences">

@@ -28,7 +28,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                     <h4 style="padding-left:20%">Aperçu</h4>
                     
-                    <a href="images/fond_demineur.jpg" rel="lightbox" title="Aperçus En Vrac" ><img src="images/fond_demineur_miniature.jpg" /></a>
+                    <a href="/public/images/fond_demineur.jpg" rel="lightbox" title="Aperçus En Vrac" ><img src="/public/images/fond_demineur_miniature.jpg" /></a>
 
                 </div>
             </div>
