@@ -1,0 +1,806 @@
+f/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+
+/* I    HTML               */
+/* II   Navigateur         */
+/* II   Footer             */
+/* III  Accueil            */
+/* IV   Présentation       */
+/* V    Cv                 */
+/* VI   Contact            */
+/* VII  Démineur           */
+/* VIII PPE                */  
+/* IX   Blog               */
+/* X    Portofolio         */
+    /* X.I    Développement Web  */
+/* XI   Compétences 
+/* XII  Login              */
+/* XIII Feed               */
+
+ /* --- HTML --- */
+
+* {
+margin: 0;
+text-align: justify;
+}
+html, body {
+height: 100%;
+}
+
+h1, h2, h3, h4, h5,h6{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: 900;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+  margin-top:10px;
+}
+
+h2{
+  font-size: 22px;
+  font-weight:900;
+  margin-bottom: 15px;
+}
+
+h3{
+  font-size : 18px;
+  font-weight: 600;
+}
+
+form{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.col-xs-2,.col-xs-3{
+  font-family: sans-serif;
+}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.desousligne:hover /* Ne marcher pas --' */
+{
+    text-decoration:none;
+}
+
+.color_blue{
+    color: #3ea7e8;
+}
+
+.relative{
+  position: relative;
+}
+
+.stronger{
+    color:#44749D;
+    font-weight: bold;
+}
+
+.stronger1{
+    font-weight: bold;
+}
+
+.stronger_mail{ 
+    color:black;
+    font-weight: bold;
+}
+
+.alinea_droit{
+    margin-left: -10px;
+}
+
+.surligne{
+  border-bottom:solid 1.5px;
+  border-color:#5b8cb2;
+}
+
+.yolo{
+  vertical-align: middle;
+}
+
+.marge{
+  margin-left:100px;   
+}
+
+.marge_bas{
+  margin-bottom: 40px;
+}
+
+.hoverPopup
+{
+  width:440px;
+  padding-left: 20px !important;
+  display: none; 
+}
+.hoverPopupWrapper
+{
+  cursor:s-resize;
+  font-weight: bold;
+  color:orange;
+} 
+
+#tooltip{
+  position:absolute;
+  z-index: 99;
+  background:#fff;
+  width:auto;
+  padding:3px;
+  border:1px solid grey;
+  border-radius:6px;
+  top:0;
+  &:after{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    position: absolute;
+    left: 22%;
+    bottom: -44%;
+  }
+}
+
+    /* --- Navigateur --- */
+.navbar-inverse{
+  border-radius: 0px !important;
+}
+
+.dropdown-menu{
+  border-radius: 0px !important;
+}
+
+.dropdown-menu{
+  background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+}
+
+.dropdown-menu .divider{
+  background-color:#9d9d9d; 
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Comfortaa';
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Comfortaa';
+  font-size: 16px;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+  font-family: 'Comfortaa';
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: inherit;
+  background-image: inherit;
+  font-family: 'Comfortaa';
+}
+
+.navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .open > a:focus  {
+  font-family: 'Comfortaa';
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: inherit;
+  background-image: inherit;
+  font-family: 'Comfortaa';
+}
+
+
+@media (max-width: 849px){
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  font-family: 'Comfortaa';
+}
+}
+
+@media (max-width: 849px){
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff;
+  background-color: inherit;
+  background-image: inherit;
+  font-family: 'Comfortaa';
+}
+}
+    /* DropDown */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #fff;
+  white-space: nowrap;
+  font-family: 'Comfortaa';
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  color: #9d9d9d;
+  background: transparent !important;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+span.glyphicon-folder-close, span.glyphicon-folder-open{
+    margin-right: 7px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: -5px;
+    left: 100%;
+    margin-left: -1px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-left-color: #fff;
+    margin-top: 8px;
+    margin-right: -12px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+  background-image: none;
+  background-color: transparent;
+}
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+    /* --- Footer --- */
+#rss/* Cache le flux RSS */
+{
+  display: none;
+}
+
+#footer{
+  position:relative;
+  height: 104px;
+  padding: 30px 0px 0px 45px;
+  margin-top: 25px;
+  box-shadow: inset 0 4px 33px -2px gray;
+  [alt="Logo Web"]{
+    max-width:150px;
+    margin-top: -20px;
+    @media(max-width:768px){
+      margin-top: 0;
+    }
+  }
+}
+
+#footer span:nth-of-type(2){
+  margin-left: 20px;
+}
+
+#footer img:hover:not(.not){
+  transform:scale(1.1);
+}
+#footer img{
+  transition:transform 0.2s ease-out;
+}
+
+@media(max-width: 400px){
+  #footer{
+    width: 100%;
+    max-width: 100%;
+  }
+  #twitter #quora #linkdin #stumble #rss{
+    width: 30px;
+    height: auto;
+  }
+}
+
+
+.footer, .push {
+height: 104px;
+}
+
+@media (max-width: 768px)
+{
+  .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -165px;
+  }
+  #footer, .push {
+    height: 165px;
+  }
+  #footer{
+    width:100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+#footer a{
+	font-weight: 700;
+}
+
+    /* --- Accueil --- */
+
+.a_jumbotron:hover{
+    text-decoration: underline;
+    color:#3ea7e8;
+}  
+
+    /*  --- Jumbotron --- */
+
+.jumbotron
+{
+   text-shadow: 0px 2px 2px black;
+   color:white;
+   background-image: url('/images/llc_droit_de_l_informatique.jpg');   
+}
+
+#entete_jumbotron{ /* Pas la Bonne Police */
+    font-family: 'chukfiveroman';
+}
+
+    /* --- Présentation --- */
+#photo_presentation{
+    width: 100%;
+    max-width: 295px;
+    border: 2px solid black;
+    border-radius: 25px;
+    border-corner-shape: bevel;
+}
+
+@media(max-width :992px){
+  #photo_presentation{
+    margin-top: 60px;
+}
+}
+
+@media(max-width: 768px){
+#photo_presentation{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+    /* --- Cv --- */
+
+.cv_block{
+  max-width: 600px;
+}
+
+#button_cv{
+  display: block;
+  position: absolute;
+  top: 75px;
+  right: 20px;
+  z-index: 2;
+}
+
+@media(max-width: 650px){
+  #button_cv{
+    max-width: 80px;
+    display: none;
+      font-size: 11px;
+  }
+}
+
+.btn {
+  display: block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: normal;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+#cv_2{  
+  background-color: white;
+  padding: 8px;
+  border: 2px solid #44749D;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  top: 2px;
+  max-width: 600px; 
+  z-index: 1;
+}
+
+  
+@media (max-width: 768px) {
+  .btn-responsive {
+    font-size:11px;
+    line-height: 1;
+    border-radius:3px;
+  }
+
+  #cv2{
+    max-width: 100%;
+  }
+}
+
+
+
+@media (max-width: 650px) {
+  .btn-responsive {
+    padding:2px 4px;
+    font-size:60%;
+    line-height: 1;
+    border-radius:3px;
+  }
+}
+
+
+
+
+    /* --- Contact --- */
+    
+form div + div {
+    margin-top: 1em;
+}
+
+input, textarea {
+    /* Afin de s'assurer que tous les champs textuels utilisent la même police
+       Par défaut, textarea utilise une police à espacement constant */
+    font: 1em sans-serif;
+
+    /* Pour donner la même dimension à tous les champs textuels */
+    width: 550px;
+    height: 40px;
+
+    /* Pour harmoniser l'apparence des bordures des champs textuels */
+    border: 1px solid #999;
+    border-radius: 3px;
+    
+    /* Pour que la saisie ne commence pas colé */
+    padding-left: 7px;
+}
+
+textarea{
+    padding-top: 7px;
+    line-height: 15px;
+}
+
+input:focus, textarea:focus {
+    /* Afin de rehausser les éléments actifs */
+    border-color: #63eaff;
+}
+
+textarea {
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 18em;
+    /* Empeche la fenetre de se modifier */
+    resize: none;
+}
+
+@media (max-width: 600px){
+    input, textarea{
+        width:100%;
+    }
+}    
+
+#contact button{
+  margin-top: -14px;
+  height: 75px;  
+}
+
+    /* --- Démineur --- */
+
+#title_dem {
+    padding-left: 40px;
+}
+
+    /* --- PPE --- */
+
+.btn-log-in{
+  margin-left: 40px;
+}
+    /* --- Blog --- */
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-log{
+  position: fixed;
+  right: 0px;
+  top:60px;
+  z-index: 9999;
+}
+
+.img_blog {
+  border-radius: 3px;
+  margin-top: 40px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img_blog2{
+  border-radius: 2px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto
+}
+
+@media(max-width: 991px){
+  .img_blog{
+    margin-top: 20px;
+  }
+} 
+
+@media(max-width: 768px){
+  .img_blog{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    display: block;
+  }
+}
+
+.titre_blog {
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+    /* --- Portofolio --- */
+.projetCours, .projetStage{
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  text-align: center;
+  border: 2px solid black;
+  background: #EFFCF5;
+  height: 45px;
+  width: 45%;
+  white-space: nowrap;
+}
+
+@media(max-width:760px){
+  .projetCours, .projetStage{
+    width:auto;
+  }
+}
+
+.projets{
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  font-size: 27px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: #FFFADA;
+  font-style: italic;
+
+}
+
+    /* --- Développement Web --- */
+.titre_dev{
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+    /* Compétences */
+.competences{
+  .containerSkills{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    background-color:#000;
+    color: #fff;
+    padding: 5px;
+    border: 2px solid grey;
+    max-height: 38px;
+    width: 100%;
+    overflow:hidden;
+    transition: max-height 1s ease, width 1s ease;
+    &:hover {
+        max-height:300px;
+        .innerSkill{
+          padding-left: 5px;
+          &:before{
+             visibility: visible;
+             opacity: 1;
+          }
+        }
+    }
+    .innerSkill{
+      white-space:nowrap;
+      font-size: 18px;
+      margin: 5px;
+      background-color: #fff;
+      color:#000;
+      width: 0;
+      transition: width 1s ease, padding 0.8s linear;
+      transition-delay: 1s;
+      position:relative;
+        &:before{
+          visibility: hidden;
+          opacity: 0;
+          transition: visibility 0s, opacity 0.5s linear;
+          transition-delay: 2s;
+          content: attr(data-level)"%";
+          color: #fff;
+          position: absolute;
+          right:-45px;
+        } 
+    }
+  }
+}
+
+.tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.4;
+  visibility: visible;
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+    /* --- Login --- */
+
+.log{
+
+    font: 1em sans-serif;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding-left:7px;
+    
+}
+
+    /* --- Mention Légale --- */
+.h4_ml{
+    margin-left: 30px; 
+}
+
+    /* --- RSS --- */
+#divRss
+{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-right: 40px;
+}
+.feedEkList
+{
+  list-style:none;
+}
+.feedEkList li
+{
+  margin-bottom: 10px;
+}
+.feedEkList li .itemTitle 
+{
+  font-weight: 700;
+}
+
+
+    /* --- Adaptation Screen --- */
+
+@media (max-width: 991px){
+    .cv_block{
+        width:600px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        
+    }
+
+    .jumbotron_petit > h1{
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 200;
+        color: #FCFCFC;
+        margin-left:40px;
+        font-size: 40px;
+        text-shadow: 0px 2px 2px black;
+    }
+    
+    #p_jumbotron, #a_jumbotron{
+        text-shadow: 0px 2px 2px black;
+    }
+}
+

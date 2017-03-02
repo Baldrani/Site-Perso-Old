@@ -1,0 +1,29 @@
+
+<head>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-hover-dropdown/2.2.1/bootstrap-hover-dropdown.js"></script>
+	<script src="https://raw.githubusercontent.com/qmagico/cdn/master/src/less/bootstrap.less"></script>
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+</head>
+
+<body>
+	<div class="input-group date">
+	    <input type="text" class="form-control" value="12-02-2012">
+	    <div class="input-group-addon">
+	        <span class="glyphicon glyphicon-th"></span>
+	    </div>
+	</div>
+
+	<div data-date="12/03/2012"></div>
+	<script type="text/javascript">
+		$('#datepicker').datepicker();
+		$('#datepicker').on("changeDate", function() {
+		    $('#my_hidden_input').val(
+		        $('#datepicker').datepicker('getFormattedDate')
+		    );
+		});
+	</script>
+</body>

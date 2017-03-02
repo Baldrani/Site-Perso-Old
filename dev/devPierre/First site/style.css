@@ -1,0 +1,301 @@
+/*
+I - Header
+II - Paramètres généraux
+III - Nav Accueil
+IV - Présentation
+V - Aside
+VI - #Selfie!
+*/ 
+
+html
+{
+	width: 100%;
+	height: 100%;
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	margin: auto;
+}
+
+body
+{
+	margin: 0px;
+}
+
+/* I - Header */
+
+header
+{
+	color: #ffffff;
+	background-color: #afafaf;
+	box-shadow: 0 0 9px #ffffff inset;
+}
+
+nav
+{
+	top: 0px;
+	width: 100%;
+}
+ 
+
+nav ul
+{
+	text-align: center;
+	margin: 0px;
+	padding-top: 0.5%;
+	padding-bottom: 0.3%;
+}
+
+nav li
+{
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media all and (max-device-width: 1024px)
+{
+	nav ul
+	{
+		text-align: center;
+		margin: 0px;
+		padding-top: 12px;
+		padding-bottom: 10px;
+	}
+
+	nav li
+	{
+	    display: inline-block;
+	    padding-left: 0.15%;
+	    padding-right: 0.15%;
+	}
+}
+
+.sousMenu1
+{
+	position: relative;
+}
+
+.sousMenu2
+{
+	position: absolute;
+	z-index: 1000;
+	background-color: #afafaf;
+	text-align: left;
+	padding-left: 0;
+	overflow: hidden;
+	max-height: 0;
+}
+
+.sousMenu2 li
+{
+	display: inherit;
+}
+
+.sousMenu1:hover, .sousMenu2:hover
+{
+	display: block;
+	max-height: 10000px;
+}
+
+.sousMenu1 a:hover
+{
+	color: #ffffff;
+}
+
+/* II - Paramètres génraux */
+
+section
+{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	color: #606060;
+	padding-top: 23px;
+}
+
+article
+{
+	margin-bottom: 24px;
+}
+
+section ul
+{
+	padding-left: 0px;
+}
+
+section li
+{
+	display: block;
+}
+
+section a:hover
+{
+	color: #ff0000;
+}
+
+footer
+{
+	color: #ffffff;
+	margin: 0px;
+	padding: 12px;
+	background-color: #afafaf;
+	box-shadow: 0 0 30px #ffffff inset;
+}
+
+a
+{
+	text-decoration: none;
+	color: #606060;
+	font-size: 20px;
+}
+
+a:hover
+{
+	text-decoration: bold;
+	color: #fefefe;
+}
+
+a:active
+{
+	color: #ff0000;
+}
+
+.BarreDeSeparation
+{
+	height: 0.4px;
+	width: 30%;
+	margin: auto;
+	box-shadow: 0 5px 8px #000000;
+}
+
+/* III - Navigateur Accueil */
+
+#navAccueil
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+
+#navAccueil ul li
+{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	border-bottom: ridge;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #efefef, #a9a9a9);
+	box-shadow: -3px -3px 15px #555555;
+}
+
+.Presentation
+{
+	border-top: ridge;
+}
+
+#EnTeteAccueil
+{
+	padding-bottom: 24px;
+}
+
+
+/* IV - Présentation */
+
+#Presentation
+{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+	background-image: linear-gradient(to bottom, #efefef, #a9a9a9);
+	margin-right: 0.5%;
+	margin-left: 0.5%;
+	box-shadow: -3px -3px 15px #555555;
+	border-radius: 1000px;
+	position: relative;
+}
+
+/* V - Aside */
+
+aside
+{
+	display: inline-block;
+	position: relative;
+	width: 15%;
+	text-align: justify;
+	border-radius: 1000px;
+	background-image: linear-gradient(to bottom, #efefef, #a9a9a9);
+	box-shadow: -3px -3px 15px #555555;
+	padding-left: 100px;
+}
+
+/* VI - #Selfie! */
+
+#ImageSelfie
+{
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	background: url('Images/LetMeTakeASelfie.png');
+	background-repeat: no-repeat;
+	width: 768px;
+	height: 431px;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px black;
+}
+
+#ImageSelfieBande
+{
+	position: absolute;
+	background-color: #afafaf;
+	opacity: 0.5;
+	text-align: justify;
+	width: 98.7%;
+	bottom: 0px;
+	left: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.lienVideo
+{
+	position: absolute;
+	padding: 3px;
+	right: 10px;
+	bottom: 6px;
+	border-radius: 10px;
+	background-color: #afafaf;
+}
+
+.lienVideo a
+{
+	color: #ffffff;
+}
+
+/* VII - Forum */
+
+#Post
+{
+	width: 25%;
+	margin: auto;
+	padding: 1%;
+	text-align: left;
+	box-shadow: 0 0 10px #000000;
+	margin-bottom: 15px;
+}
+
+#Chat
+{
+	width: 30%;
+	min-height: 100px;
+	margin: auto;
+	padding-left: 5%;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+	text-align: left;
+	background-image: linear-gradient(to bottom, #efefef, #a9a9a9);
+	box-shadow: -5px 5px 10px #000000;
+	margin-bottom: 15px;
+}
+
